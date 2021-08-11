@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint .",
+    "lintfix": "./node_modules/.bin/eslint --fix  src/",
     "test": "jest --coverage",
     "build": "webpack"
   },
